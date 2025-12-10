@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NodeJsPayload:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NodeJsPayload_jar</output-path>
+    <root id="archive" name="NodeJsPayload.jar">
+      <element id="module-output" name="NodeJsPayload" />
+    </root>
+  </artifact>
+</component>
